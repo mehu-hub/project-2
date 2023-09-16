@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 * {
     font-family: 'Inter', sans-serif;
 }
@@ -129,16 +134,19 @@
     border-radius: 5px;
     border: 2px solid #FF5959;
     background: #FEE;
-    
+
 }
-.select-box p{
+
+.select-box p {
     color: #FF5959;
 }
-.other-amount{
+
+.other-amount {
     text-align: center;
     margin-top: 60px;
 }
-.other-amount input{
+
+.other-amount input {
     border: none;
     height: 50px;
     padding: 10px;
@@ -146,11 +154,168 @@
     outline: none;
     text-align: center;
 }
-hr{
+
+hr {
     margin: 0 20%;
 }
-.donate-btn{
+
+.donate-btn {
     margin-top: 30px;
     text-align: center;
+}
 
+/* Donate Plan Section Style */
+.plan-section {
+    margin-top: 130px;
+}
+
+.donate-plan-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+}
+
+.donate-plan-div {
+    border-radius: 10px;
+    padding: 30px;
+    width: 360px;
+    height: 352px;
+    background: #FFF4D6;
+}
+
+.donate-plan-div img {
+    width: 58px;
+    height: 50px;
+    margin-top: 30px;
+}
+
+.donate-plan-div h4 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #474747;
+}
+
+.donate-plan-div p {
+    font-size: 20px;
+    line-height: 35px;
+    color: #707070;
+}
+
+.blue {
+    background: #4F9DA61A;
+}
+
+.red {
+    background: rgba(255, 89, 89, 0.10);
+}
+
+.yellow {
+    background: #FFF4D6;
+}
+
+/* Section one style */
+.no-more-section {
+    margin-top: 130px;
+}
+
+.section-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.hunger-section {
+    width: 45%;
+}
+
+.hunger-section h4 {
+    margin: 0;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.hunger-section p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #707070;
+}
+
+.contribute {
+    margin-top: 30px;
+    margin-left: -5px;
+}
+
+.img-one img {
+    width: 456px;
+    height: 477px;
+}
+
+.give-section {
+    width: 35%;
+    margin-left: 10%;
+
+}
+
+.give-section h4 {
+    margin: 0;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.give-section p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #707070;
+}
+
+/* update-section */
+
+.updates-section {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center
+}
+
+.email-box {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 200px;
+    background: #FFF4D6;
+    ;
+}
+
+.email-box input {
+    margin-right: -10px;
+    width: 250px;
+    height: 20px;
+    outline: none;
+    padding: 15px;
+    border: 2px solid wheat;
+    background: #ebeaea;
+}
+
+
+/* Footer */
+.footer {
+    margin-top: 130px;
+    padding: 30px;
+    background: black;
+    text-align: center;
+}
+
+.footer h2{
+    color: #FF5959;
+}
+.footer p{
+    color: wheat;
+}
+.link{
+    color: white;
+    text-decoration: none;
 }
