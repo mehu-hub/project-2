@@ -1,7 +1,9 @@
 * {
     font-family: 'Inter', sans-serif;
 }
-.header-section{
+
+/* Header Section Style */
+.header-section {
     background: #FAFAFA;
 }
 
@@ -13,21 +15,25 @@
     display: flex;
     align-items: center;
 }
- 
-.head-title{
+
+.head-title {
     line-height: 22px;
 }
+
 .banner-title {
     line-height: 80px;
     font-size: 65px;
 }
-.header-img{
+
+.header-img {
     margin-left: 100px;
     margin-bottom: -95px;
 }
-.banner-info{
+
+.banner-info {
     padding: 100px;
 }
+
 .banner-sub-title {
     font-weight: 600;
     font-size: 45px;
@@ -38,9 +44,11 @@
     color: rgb(160, 159, 159);
     margin-bottom: 30px;
 }
-.btn{
+
+.btn {
     margin-top: 50px;
 }
+
 .btn-primary {
     margin-left: 10px;
     background-color: #FF5959;
@@ -53,7 +61,8 @@
     font-weight: bold;
     cursor: pointer;
 }
-.btn-watch{
+
+.btn-watch {
     margin-left: 10px;
     font-size: 15px;
     height: 54px;
@@ -64,6 +73,84 @@
     font-weight: bold;
     cursor: pointer;
 }
-.fa-solid{
+
+.fa-solid {
     margin-right: 5px;
+}
+
+/* Donate today section title */
+.donate-today-title {
+    text-align: center;
+    margin-top: 130px;
+}
+
+.donate-title {
+    font-size: 45px;
+}
+
+.donate-slogan {
+    font-size: 18px;
+    text-align: center;
+    color: #707070;
+    line-height: 28px;
+    margin-top: -20px;
+}
+
+/* Donate Today Section */
+.donate-today {
+    margin-top: 50px;
+}
+
+.donate-box {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.amount-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    height: 123px;
+    border-radius: 5px;
+    background: #fcf3f3;
+    text-align: center;
+}
+
+.amount-box p {
+    color: #8a8989;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.select-box {
+    border-radius: 5px;
+    border: 2px solid #FF5959;
+    background: #FEE;
+    
+}
+.select-box p{
+    color: #FF5959;
+}
+.other-amount{
+    text-align: center;
+    margin-top: 60px;
+}
+.other-amount input{
+    border: none;
+    height: 50px;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    text-align: center;
+}
+hr{
+    margin: 0 20%;
+}
+.donate-btn{
+    margin-top: 30px;
+    text-align: center;
+
 }
